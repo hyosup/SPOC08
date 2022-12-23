@@ -1,0 +1,1 @@
+sap.ui.define(["sap/suite/ui/generic/template/lib/AppComponent"],function(e){"use strict";return e.extend("com.mdpert.lgerppocfe1lr.Component",{metadata:{manifest:"json"}})});                                                                                

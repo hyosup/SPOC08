@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZUI_POC08'
+@OData.schema.name: 'ZUI_POC08'
+define service ZUI_POC08 {
+  expose ZI_POC08_RESULT;
+}

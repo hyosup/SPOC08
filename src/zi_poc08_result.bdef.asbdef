@@ -1,0 +1,15 @@
+unmanaged implementation in class zcl_pb_poc08_result unique;
+//strict; //Comment this line in to enable strict mode. The strict mode is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZI_POC08_RESULT //alias <alias_name>
+//late numbering
+//lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  //create;
+  //update;
+  //delete;
+  action re_pricing parameter zspoc08_re_pricing;
+  action reject_all parameter zspoc08_reject_all;
+}

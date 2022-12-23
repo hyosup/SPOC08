@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ui/model/Filter","sap/ui/comp/smartfilterbar/SmartFilterBar","sap/m/ComboBox"],function(e,t,a){"use strict";return{getCustomAppStateDataExtension:function(e){if(e){var t=this.oView.byId("filter_auart");if(t){e.auart=t.getSelectedKey()+
+}}},restoreCustomAppStateDataExtension:function(e){if(e){if(e.auart){var t=this.oView.byId("filter_auart");t.setSelectedKey(e.auart)}}},onBeforeRebindTableExtension:function(e){var r=e.getParameter("bindingParams");r.parameters=r.parameters||{};var i=e.g+
+etSource();var n=this.byId(i.getSmartFilterId());if(n instanceof t){var o=n.getControlByKey("auart");if(o instanceof a){var s=o.getSelectedKey();switch(s){default:break}}}}}});                                                                               

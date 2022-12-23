@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZEPOC08_CREDIT_LIMIT_LEFT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>FIN_AMOUNT</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>Credit Limit Left</DDTEXT>
+    <REPTEXT>Credit Limit Left</REPTEXT>
+    <SCRTEXT_S>Credit Lim</SCRTEXT_S>
+    <SCRTEXT_M>Credit Limit Left</SCRTEXT_M>
+    <SCRTEXT_L>Credit Limit Left</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
